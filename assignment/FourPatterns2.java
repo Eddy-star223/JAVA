@@ -36,15 +36,34 @@ System.out.println();
 System.out.print("Pattern C");
 
 System.out.println();
-for (column = 0; column <= counter; column++) {
-for (row = 0; row <= column; row++) {
-int add = row + 1;
-System.out.print(add + " ");
+
+int add;
+for (column = 1; column <= 6; column++) {
+add = column;
+
+if (add == 1) {
+System.out.print("					");
+}else if (add == 2){
+System.out.print("				");
+}else if (add == 3) {
+System.out.print("			");
+}else if (add == 4) {
+System.out.print("		");
+}else if (add == 5) {
+System.out.print("	");
+}
+else if (add == 6) {
+System.out.print("");
+}
+
+for (row = 0; row < column; row++) {
+System.out.printf("%d	", add--);
 }
 
 System.out.println();
 
 }
+
 
 
 }

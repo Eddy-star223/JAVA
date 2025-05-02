@@ -28,31 +28,6 @@ System.out.println();
 
 }
 
-System.out.print("Pattern C");
-System.out.println();
-
-for (int k = 1; k <= j; k++) {
-for (int j = 1; j <= 6; j++) {
-
-System.out.print("* ");  
-
-}
-
-System.out.println();
-}
-
-System.out.print("Pattern D");
-System.out.println();
-
-for (int k = 1; k <= j; k++) {
-for (int j = 6; j <= 1; j--) {
-
-System.out.print("* ");  
-
-}
-
-System.out.println();
-}
 
 }
 }
