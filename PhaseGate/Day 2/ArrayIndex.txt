@@ -1,0 +1,22 @@
+public class arrayIndex {
+
+	public static Boolean digitCorresponding(String num) {
+
+	String digits = num;
+	int count = 0;
+	
+	for (int digits : num) {
+	co
+	for(int digits = 0; digits < num[index.length; digits++) {
+
+	
+}
+	
+	
+}   
+
+
+}
+
+
+}
